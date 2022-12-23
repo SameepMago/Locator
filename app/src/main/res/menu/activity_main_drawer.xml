@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/updates"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Latest Updates"/>
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@drawable/route"
+            android:title="Bus Route" />
+        <item
+            android:id="@+id/nav_fees"
+            android:icon="@drawable/busfees"
+            android:title="Bus Fees" />
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="@drawable/driver"
+            android:title=" Drivers Detail" />
+        <item
+            android:id="@+id/complaint"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Complaints"/>
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/ic_cloud_download_black_24dp"
+            android:title="Downloads"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

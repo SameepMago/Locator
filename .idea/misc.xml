@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/about.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/about_us.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/activity_forgot_pass.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/activity_maps.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/activity_sign_up.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/app_bar_main.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/contact_us.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/content_main.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/currentlocation.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/detail_row.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/download.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/download_grid.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/driver_detail.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/editprofilebusnum.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/editprofilebusstop.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/feedback.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/fees.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/help.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/list_row.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/login.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/nav_header_main.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/notification_row.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/notifications.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/profile.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/rating.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/route.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/route_row.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/searchbus.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/spinner_item.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/splash.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/layout/subscribe.xml" value="0.13183060109289618" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/menu/activity_main_drawer.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/menu/bottombar_menu.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/menu/main.xml" value="0.153125" />
+        <entry key="..\:/C Backup/AndroidStudioProjects/Locator/app/src/main/res/menu/updates.xml" value="0.153125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

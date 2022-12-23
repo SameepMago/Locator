@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_span="4"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="COLLEGE BUS CHARGES"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S.No"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Place"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fees"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ambala Cantt"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  2."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" Ambala Cantt(Defence Area/Babyal)"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  3."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ambala City"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  4."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Shahabad Markanda"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  5."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Barara"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  6."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Yamuna Nagar"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  7."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mullana/Dosarka"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  8."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dosarka(Via Barara)"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  9."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kalpi"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  10."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Raipur Rani"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  11."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Naraingarh"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  12."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sahzadpur"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  13."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pathreri"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  13."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Karasan"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7000/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  15."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Naraingarh Majra/Kesri"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  16."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Khuda/Maglai Mod/Saha"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  17."
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thana Chappar(Via Barara)"
+                android:textColor="#000000"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16500/-"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
+
+

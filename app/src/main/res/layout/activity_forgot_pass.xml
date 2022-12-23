@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassword">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.12">
+
+            <com.ymca.locator.Views.PlayGifView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Forgot password?"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="We just need your registered Email id to send you password reset instructions"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/ic_mail_black_24dp"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email"
+                android:hint="Registered Email id"
+                android:padding="16dp"
+                android:background="@drawable/fedittext"
+                android:textSize="14dp"
+                />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:text="Reset Password"
+                android:backgroundTint="#3CB371"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/fpass"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
